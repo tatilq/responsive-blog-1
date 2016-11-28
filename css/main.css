@@ -1,0 +1,127 @@
+/* SELECTORES GENERALES */
+*{	
+	margin: 0;
+	padding: 0;
+	/*outline: 3px solid blue;*/
+}
+body
+{
+	font-family: 'Courgette'
+}
+small , a
+{
+	font-family: "Open Sans";
+    font-style: italic;
+	padding: 25px 6px;
+	color: #E3DFDF;
+	font-size: 12px;
+}
+h1,h4
+{
+	color: #D9AF5D;
+}
+.container
+{
+	width: 700px;
+	margin: 0 auto;
+} 
+.hero , .oferta
+{
+	overflow:hidden;	
+	background-color: #1C1523;
+	padding-top: 30px;
+}
+.titulo , .descripcion , .side
+{	
+    background-color:#08050D;/**/
+}
+/*AQUI ESTA EL HEADER*/
+header
+{
+	overflow: hidden;
+	background-color: #0B0511;
+}
+.logo{
+	width: 30%;
+}
+.menu
+{
+	float: right;	
+}
+.menu li
+{
+	list-style:none;
+	display: inline-block;
+}
+.menu li a
+{
+	text-decoration: none;
+	display: block;
+}
+/*ESTA ES LA SECCION DE LA PORTADA*/
+.hero
+{
+	overflow: hidden;
+	text-align:center;
+	clear: both;
+}
+.hero .portada{
+	background: url(../image/header-image.jpg) top no-repeat;
+    background-size: cover;
+    width: 100%;
+	display: table;
+}
+.titulo
+{	
+    margin:80px 120px;
+    padding:20px 0;
+}
+.titulo h1
+{
+	font-size: 60px;
+}
+/*ESTA ES LA SECCION DEL CONTENIDO*/
+.col-1,.col-2, .col-3
+{
+	width: 32%;
+	float: left;
+	box-sizing: border-box;
+}
+.col-2
+{
+	margin:0 13px;	
+}
+.descripcion
+{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.descripcion img 
+{
+	width: 100%;
+	height: 150px;
+}
+/*ESTA ES LA SECCION DEL SIDEBAR*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
