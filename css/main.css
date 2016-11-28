@@ -8,6 +8,11 @@ body
 {
 	font-family: 'Courgette'
 }
+header , footer
+{
+	background-color: #0B0511;
+	overflow: hidden;
+}
 small , a 
 {
 	font-family: "Open Sans";
@@ -16,7 +21,7 @@ small , a
 	color: #E3DFDF;
 	font-size: 12px;
 }
-h1,h4
+h1 , h4
 {
 	color: #D9AF5D;
 }
@@ -46,11 +51,6 @@ h1,h4
 	padding: 10px;
 }
 /*AQUI ESTA EL HEADER*/
-header
-{
-	overflow: hidden;
-	background-color: #0B0511;
-}
 .logo{
 	width: 30%;
 }
@@ -173,6 +173,15 @@ header
 	border-radius: 100%;
 	padding: 10px;
 	background-color:#504848;
+}
+/*ESTA ES LA PARTE DEL FOOTER*/
+#foot
+{
+	text-align: center;
+}
+footer
+{
+	padding: 20px;
 }
 
 /* Responsive */
