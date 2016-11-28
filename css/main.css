@@ -30,11 +30,20 @@ h1,h4
 	overflow:hidden;	
 	background-color: #1C1523;
 	padding-top: 30px;
+	box-sizing: border-box;
 }
-.titulo , .descripcion , .side
+.titulo , .descripcion , .side , .about_me
 {	
     background-color:#08050D;
 	text-align:center;
+}
+.texto p
+{
+	text-align:left;
+	font-family: "Open Sans";
+	color: #E3DFDF;
+	font-size: 12px;
+	padding: 10px;
 }
 /*AQUI ESTA EL HEADER*/
 header
@@ -99,12 +108,14 @@ header
 	width: 100%;
 	height: 150px;
 }
-/*ESTA ES LA SECCION DEL SIDEBAR*/
+/*ESTA ES LA SECCION DEL SIDEBAR COLUMNA IZQUIERDA*/
 .col-izquierda
 {
 	width: 60%;	
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
 }
-
 .side
 {
 	clear: both;
@@ -114,26 +125,55 @@ header
 	width: 100%;
 	height: 300px;
 }
-.texto p
+
+/*ESTA ES LA SECCION DEL SIDEBAR COLUMNA DERECHA*/
+.col-derecha
 {
-	text-align:left;
-	font-family: "Open Sans";
-	color: #E3DFDF;
-	font-size: 11px;
-	padding: 10px;
+	width: 40%;	
+	float: left;
+	box-sizing: border-box;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.search
+{
+	background-color:#08050D;
+	padding: 20px;
+	margin-bottom:10px; 
+	border-radius: 10px;
+}
+.search form
+{
+	background-color: #1C1523;
+	padding:10px;
+}
+.search input
+{
+	width: 100%;
+	padding:5px;
+	background-color: #1C1523;
+	border: none;
+	box-sizing: border-box;
+}
+.about_me img
+{
+	width: 100%;
+	padding-top: 10px;
+}
+#name
+{
+	text-align:center;
+	font-weight: bold;
+	margin: 0;
+}
+.iconos {
+   
+    padding-bottom: 20px;
+}
+.fa
+{
+	border-radius: 100%;
+	padding: 10px;
+	background-color:#504848;
+}
 
 /* Responsive */
 
