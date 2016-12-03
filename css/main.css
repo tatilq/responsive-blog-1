@@ -199,10 +199,10 @@ footer
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	
    .menu{
-   		width:60%;
+   		width:30%;
 		height:auto;
 		margin:0;
 		position: fixed;
